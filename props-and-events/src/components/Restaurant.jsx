@@ -1,5 +1,8 @@
+//Created parameter called props and passed it 
+//through the restaurant function
 function Restaurant(props) {
 
+//elements to display restaurant data info, by accessing the prop.restaurnt
   return (
     <div className="restaurant">
       <img src={props.restaurant.image} alt={props.name} />
